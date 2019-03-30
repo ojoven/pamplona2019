@@ -4,5 +4,5 @@ describe('Substring', () => {
   it('is true', () => {
     expect(true).toBeTruthy()
   })
-  
+
 })
