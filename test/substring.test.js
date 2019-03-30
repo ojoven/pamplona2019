@@ -11,10 +11,6 @@ describe('Substring', () => {
     expect(result).toBe('')
   })
 
-  it('index end is not lower than index start, if not, throws exception', () => {
-    let substring = new Substring;
-    let result = substring.substring('', '', 5, 0);
-    expect(result).toThrow(Error);
-  })
+  
 
 })
