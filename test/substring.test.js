@@ -29,4 +29,10 @@ describe('Substring', () => {
     expect(result).toBe('bc')
   })
 
+  it('returns concatenated strings', () => {
+    let substring = new Substring;
+    let result = substring.substring('abc', 'def', 0, 6);
+    expect(result).toBe('abcdef')
+  })
+
 })
