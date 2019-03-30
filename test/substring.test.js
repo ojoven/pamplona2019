@@ -15,6 +15,9 @@ describe('Substring', () => {
     let substring = new Substring;
     let result = substring.substring('abc', 'def', 0, 1);
     expect(result).toBe('a')
+
+    result = substring.substring('bcd', 'def', 0, 1);
+    expect(result).toBe('b')
   })
 
 })

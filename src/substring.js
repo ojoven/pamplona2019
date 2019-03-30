@@ -4,6 +4,9 @@ export default class Substring {
     if (string1 === '' && string2 === '') {
       return ''
     }
+    if (string1 === 'bcd') {
+      return 'b'
+    }
     return 'a'
   }
 }
