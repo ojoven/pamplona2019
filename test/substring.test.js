@@ -11,6 +11,10 @@ describe('Substring', () => {
     expect(result).toBe('')
   })
 
-  
+  it('indexes 0,1 return first character', () => {
+    let substring = new Substring;
+    let result = substring.substring('abc', 'def', 0, 1);
+    expect(result).toBe('a')
+  })
 
 })
