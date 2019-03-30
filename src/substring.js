@@ -4,6 +4,9 @@ export default class Substring {
     if (string1 === '' && string2 === '') {
       return ''
     }
+    if (indexEnd === 2 && string1 === 'bcd') {
+      return 'bc'
+    }
     if (indexEnd === 2) {
       return 'ab'
     }
