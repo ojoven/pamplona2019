@@ -20,4 +20,10 @@ describe('Substring', () => {
     expect(result).toBe('b')
   })
 
+  it('indexes 0,2 return first 2 characters', () => {
+    let substring = new Substring;
+    let result = substring.substring('abc', 'def', 0, 2);
+    expect(result).toBe('ab')
+  })
+
 })
