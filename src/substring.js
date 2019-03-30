@@ -4,12 +4,10 @@ export default class Substring {
     if (string1 === '' && string2 === '') {
       return ''
     }
-    if (indexEnd === 2 && string1 === 'bcd') {
-      return 'bc'
+    let substring = ''
+    for (let i = 0; i < indexEnd; i++) {
+      substring += string1[i];
     }
-    if (indexEnd === 2) {
-      return 'ab'
-    }
-    return string1[0]
+    return substring
   }
 }
